@@ -1,0 +1,91 @@
+{
+  "_from": "jssip-sl",
+  "_id": "jssip-sl@3.0.11",
+  "_inBundle": false,
+  "_integrity": "sha512-4cBDLCXnDNPJHKpKY0+c9DJ2NqduzpTH0UA+GQLl9o8GuM3GEk0s3CdTuNjbJrNeROAjW8Q4oh0g6/+vEDdZkg==",
+  "_location": "/jssip-sl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jssip-sl",
+    "name": "jssip-sl",
+    "escapedName": "jssip-sl",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jssip-sl/-/jssip-sl-3.0.11.tgz",
+  "_shasum": "f4fbaf57039877f8f1c789bee6cf224ebebbda48",
+  "_spec": "jssip-sl",
+  "_where": "C:\\work\\github\\test",
+  "author": {
+    "name": "José Luis Millán",
+    "email": "jmillan@aliax.net",
+    "url": "https://github.com/jmillan"
+  },
+  "bugs": {
+    "url": "https://github.com/versatica/JsSIP/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Iñaki Baz Castillo",
+      "email": "ibc@aliax.net",
+      "url": "https://github.com/ibc"
+    },
+    {
+      "name": "Saúl Ibarra Corretgé",
+      "email": "saghul@gmail.com",
+      "url": "https://github.com/saghul"
+    }
+  ],
+  "dependencies": {
+    "debug": "^2.6.3",
+    "sdp-transform": "^2.3.0"
+  },
+  "deprecated": false,
+  "description": "the Javascript SIP library",
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "gulp": "git+https://github.com/gulpjs/gulp.git#4.0",
+    "gulp-expect-file": "0.0.7",
+    "gulp-header": "1.8.8",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodeunit-runner": "^0.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "pegjs": "0.7.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "homepage": "http://jssip.net",
+  "keywords": [
+    "sip",
+    "websocket",
+    "webrtc",
+    "node",
+    "browser",
+    "library"
+  ],
+  "license": "MIT",
+  "main": "lib/JsSIP.js",
+  "name": "jssip-sl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/versatica/JsSIP.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "title": "JsSIP",
+  "types": "lib/jssip-sl.d.ts",
+  "version": "3.0.11"
+}
